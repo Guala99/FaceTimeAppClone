@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2379644D272AC5AE00A6911F /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379644C272AC5AE00A6911F /* BottomBar.swift */; };
 		23A4B47E27298D3500CE912C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B47D27298D3500CE912C /* AppDelegate.swift */; };
 		23A4B48027298D3500CE912C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B47F27298D3500CE912C /* SceneDelegate.swift */; };
 		23A4B48227298D3500CE912C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B48127298D3500CE912C /* ContactsViewController.swift */; };
@@ -16,6 +17,7 @@
 		23A4B49527298D3700CE912C /* FaceTime_Clone_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B49427298D3700CE912C /* FaceTime_Clone_AppTests.swift */; };
 		23A4B49F27298D3700CE912C /* FaceTime_Clone_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B49E27298D3700CE912C /* FaceTime_Clone_AppUITests.swift */; };
 		23A4B4A127298D3700CE912C /* FaceTime_Clone_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B4A027298D3700CE912C /* FaceTime_Clone_AppUITestsLaunchTests.swift */; };
+		23A4B4AE27299AAB00CE912C /* CallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B4AD27299AAB00CE912C /* CallController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2379644C272AC5AE00A6911F /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		23A4B47A27298D3500CE912C /* FaceTime Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceTime Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A4B47D27298D3500CE912C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A4B47F27298D3500CE912C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		23A4B49A27298D3700CE912C /* FaceTime Clone AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceTime Clone AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A4B49E27298D3700CE912C /* FaceTime_Clone_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime_Clone_AppUITests.swift; sourceTree = "<group>"; };
 		23A4B4A027298D3700CE912C /* FaceTime_Clone_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime_Clone_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23A4B4AD27299AAB00CE912C /* CallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				23A4B47D27298D3500CE912C /* AppDelegate.swift */,
 				23A4B47F27298D3500CE912C /* SceneDelegate.swift */,
+				2379644C272AC5AE00A6911F /* BottomBar.swift */,
+				23A4B4AD27299AAB00CE912C /* CallController.swift */,
 				23A4B48127298D3500CE912C /* ContactsViewController.swift */,
 				23A4B48327298D3500CE912C /* Main.storyboard */,
 				23A4B48627298D3700CE912C /* Assets.xcassets */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A4B48227298D3500CE912C /* ContactsViewController.swift in Sources */,
+				2379644D272AC5AE00A6911F /* BottomBar.swift in Sources */,
 				23A4B47E27298D3500CE912C /* AppDelegate.swift in Sources */,
 				23A4B48027298D3500CE912C /* SceneDelegate.swift in Sources */,
+				23A4B4AE27299AAB00CE912C /* CallController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

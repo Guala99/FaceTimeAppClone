@@ -63,8 +63,8 @@ class ContactsViewController: UIViewController {
 
 }
 
+@available(iOS 13.0, *)
 extension ContactsViewController : UITableViewDataSource, UITableViewDelegate{
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contactsModel.count
@@ -80,6 +80,10 @@ extension ContactsViewController : UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.item)
         //present call chiamata
+        let callVC = CallController()
+        callVC.modalTransitionStyle = .crossDissolve
+        callVC.modalPresentationStyle = .fullScreen
+        self.navigationController?.present(callVC, animated: true)
     }
     
 }
