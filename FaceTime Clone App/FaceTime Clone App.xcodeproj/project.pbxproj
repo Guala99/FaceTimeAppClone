@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2379644D272AC5AE00A6911F /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379644C272AC5AE00A6911F /* BottomBar.swift */; };
+		2379644F272ADDF200A6911F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379644E272ADDF200A6911F /* Extensions.swift */; };
+		23796451272B44A800A6911F /* CameraPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23796450272B44A800A6911F /* CameraPermissionView.swift */; };
 		23A4B47E27298D3500CE912C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B47D27298D3500CE912C /* AppDelegate.swift */; };
 		23A4B48027298D3500CE912C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B47F27298D3500CE912C /* SceneDelegate.swift */; };
 		23A4B48227298D3500CE912C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4B48127298D3500CE912C /* ContactsViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		2379644C272AC5AE00A6911F /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		2379644E272ADDF200A6911F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		23796450272B44A800A6911F /* CameraPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionView.swift; sourceTree = "<group>"; };
 		23A4B47A27298D3500CE912C /* FaceTime Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceTime Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A4B47D27298D3500CE912C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A4B47F27298D3500CE912C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23796452272B4B9500A6911F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23A4B4AD27299AAB00CE912C /* CallController.swift */,
+				23A4B48127298D3500CE912C /* ContactsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23796453272B4BAE00A6911F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2379644C272AC5AE00A6911F /* BottomBar.swift */,
+				23796450272B44A800A6911F /* CameraPermissionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		23A4B47127298D3500CE912C = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +127,9 @@
 			children = (
 				23A4B47D27298D3500CE912C /* AppDelegate.swift */,
 				23A4B47F27298D3500CE912C /* SceneDelegate.swift */,
-				2379644C272AC5AE00A6911F /* BottomBar.swift */,
-				23A4B4AD27299AAB00CE912C /* CallController.swift */,
-				23A4B48127298D3500CE912C /* ContactsViewController.swift */,
+				23796453272B4BAE00A6911F /* Views */,
+				23796452272B4B9500A6911F /* Controller */,
+				2379644E272ADDF200A6911F /* Extensions.swift */,
 				23A4B48327298D3500CE912C /* Main.storyboard */,
 				23A4B48627298D3700CE912C /* Assets.xcassets */,
 				23A4B48827298D3700CE912C /* LaunchScreen.storyboard */,
@@ -265,9 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A4B48227298D3500CE912C /* ContactsViewController.swift in Sources */,
+				2379644F272ADDF200A6911F /* Extensions.swift in Sources */,
 				2379644D272AC5AE00A6911F /* BottomBar.swift in Sources */,
 				23A4B47E27298D3500CE912C /* AppDelegate.swift in Sources */,
 				23A4B48027298D3500CE912C /* SceneDelegate.swift in Sources */,
+				23796451272B44A800A6911F /* CameraPermissionView.swift in Sources */,
 				23A4B4AE27299AAB00CE912C /* CallController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
